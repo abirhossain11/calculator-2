@@ -4,4 +4,9 @@ from arithmetic import (add, subtract, multiply, divide, square, cube,
                         power, mod, )
 
 
-# Replace this with your code
+while True:
+    user_equation = input("Please enter your prefix notation equation: ")
+    print(user_equation)
+    token_input = user_equation.split(' ')
+    print(token_input)
+    break
